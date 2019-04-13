@@ -3,11 +3,18 @@
   height: 70px;
 }
 
+#center-col {
+  margin: auto;
+  position: relative;
+  width: 1028px;
+  top: 310px;
+
+  /* width: 630px + 374px + 25; */
+}
+
 #main-column-left {
   width: 630px;
   position: relative;
-  top: 310px;
-  left: 18vw;
 }
 
 .booking-details-container {
