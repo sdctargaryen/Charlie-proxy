@@ -3,27 +3,29 @@
   height: 70px;
 }
 
-#center-col {
+#spacer {
+  height: 40vh;
+}
+
+#main-flexbox {
+  display: flex;
+  flex-direction: row;
+  width: min-content;
   margin: auto;
-  position: relative;
-  width: 1028px;
-  top: 310px;
-
-  /* width: 630px + 374px + 25; */
 }
 
-#main-column-left {
-  width: 630px;
-  position: relative;
+#right-col {
+  margin-top: 20px;
 }
 
-.booking-details-container {
-  position: absolute;
-  right: -400px !important;
+#bookings-master-container {
+  position: sticky;
+  top: 70px;
+  margin-left: 40px;
 }
 
-.booking-details-container-sticky {
-  position: fixed !important;
-  left: 958px !important;
-  top: 70px !important;
+#screenshot-footer {
+  justify-content: center;
+  width: min-content;
+  margin: auto;
 }
