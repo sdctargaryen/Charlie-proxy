@@ -1,6 +1,14 @@
 #navBarSS {
   width: 100%;
   height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navBarSS img{
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #spacer {
@@ -12,6 +20,11 @@
   flex-direction: row;
   width: min-content;
   margin: auto;
+}
+#hostInfo,
+#neighborhood,
+#policies {
+  width: 100%;
 }
 
 #right-col {
@@ -26,6 +39,11 @@
 
 #screenshot-footer {
   justify-content: center;
+  width: min-content;
+  margin: auto;
+}
+
+#bottom-pic-thingy {
   width: min-content;
   margin: auto;
 }
