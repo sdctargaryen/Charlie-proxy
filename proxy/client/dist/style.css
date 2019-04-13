@@ -6,12 +6,17 @@
 #main-column-left {
   width: 630px;
   position: relative;
-  top: 330px;
-  left: 225px;
+  top: 310px;
+  left: 18vw;
 }
 
 .booking-details-container {
   position: absolute;
   right: -400px !important;
-  top: 20px !important;
+}
+
+.booking-details-container-sticky {
+  position: fixed !important;
+  left: 958px !important;
+  top: 70px !important;
 }
