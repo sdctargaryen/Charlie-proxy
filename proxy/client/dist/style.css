@@ -15,7 +15,7 @@
   height: 300px;
 }
 
-#main-flexbox {
+#mainFlexbox {
   display: flex;
   flex-direction: row;
   width: min-content;
